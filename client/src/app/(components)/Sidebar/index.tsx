@@ -82,7 +82,7 @@ const Sidebar = () => {
         }`}
       >
         <Image
-          src={`${process.env.NEXT_S3_BUCKET_URL}/logo.png`}
+          src={`${process.env.NEXT_PUBLIC_S3_BUCKET_URL}/logo.png`}
           alt="edstock-logo"
           width={27}
           height={27}
